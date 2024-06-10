@@ -4,15 +4,23 @@ Dada as variáveis, A = 10 e B = 6.
 Troque os valores de A e B de forma que seus dados não sejam perdidos durante a troca.
 Ex.: A = B  &  B = A
 Por fim imprima suas saídas.
-*/
+*/ 
 
 // Entrada de dados
-
+let A = 10;
+let B = 6;
 
 // Processamento
+let temp1;
+let temp2;
 
+temp1 = A;
+temp2 = B; 
+
+A = temp2;
+B = temp1;
 
 // Saida de Dados
-  
+document.write("A agora vale ",A," e B vale" ,B);
   
 </script>
